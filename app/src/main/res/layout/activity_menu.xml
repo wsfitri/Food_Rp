@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:background="#FFC107"
+        android:layout_width="match_parent"
+        android:layout_height="1500dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:text="FoodR"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="Terdapat Lebih Dari 100 Resep Masakan"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#F7A634"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/diet"
+                    android:background="@android:color/white"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp" />
+                <Button
+                    android:id="@+id/rs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Resep 1"/>
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/salad"
+                    android:background="@android:color/white"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp" />
+                <Button
+                    android:id="@+id/rc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Resep 3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/vegetables"
+                    android:background="@android:color/white"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp" />
+
+                <Button
+                    android:id="@+id/rd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Resep 2"/>
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/v"
+                    android:background="@android:color/white"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp" />
+                <Button
+                    android:id="@+id/pojok"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PojokFoodR"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
